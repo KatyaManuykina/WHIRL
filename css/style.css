@@ -141,3 +141,81 @@ color: #1f1f1f;
     padding: 16px;
     box-sizing: border-box;
 }
+
+.care{
+    margin-top: 120px;
+    padding: 80px 0;
+    background: #f7f9fa;
+}
+
+.care-title{
+    margin: 0 0 62px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+    min-width: 630px;
+}
+.care-title span{
+    font-size: 39px;
+    line-height: 129%;
+    letter-spacing: 0.01em;
+}
+.care-faq{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-width: 450px;
+}
+.care-faq li{
+    padding: 16px 12px;
+    border-top: 1px solid #c2cdd8;
+    border-bottom: 1px solid #c2cdd8;
+}
+
+.care-faq li:hover .care-faq-body{
+    max-height: 1000px;
+    opacity: 1;
+}
+
+.care-faq-head{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: "Fraunces", sans-serif;
+    font-size: 20px;
+    line-height: 126%;
+    letter-spacing: 0.01em;
+    color: #626a72;
+}
+.care-faq-head:after{
+    content: "";
+    width: 18px;
+    height: 10px;
+    background: url(../images/shevron_bottom.svg);
+    margin-left: auto;
+}
+.care-faq-body{
+    padding-left: 48px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+/* .care-faq li+li{
+    margin-top: 2px;
+} */
+ .care-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
