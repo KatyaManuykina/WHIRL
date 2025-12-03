@@ -219,3 +219,22 @@ color: #1f1f1f;
     justify-content: space-between;
     align-items: flex-start;
  }
+
+
+
+ .item{
+    height: 300px;
+    border: 1px solid red;
+ }
+
+
+ .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+ }
+ .grid_item{
+    height: 300px;
+    border: 1px solid red;
+    box-sizing: border-box;
+ }
